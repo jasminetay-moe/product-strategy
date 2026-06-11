@@ -1,0 +1,158 @@
+<svg viewBox="0 0 1050 1120" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+
+  <!-- Background -->
+  <rect width="1050" height="1120" fill="white"/>
+
+  <!-- ── IDENTITY LAYER ── -->
+  <text x="512" y="18" text-anchor="middle" font-size="12" fill="#999">Identity</text>
+  <!-- Edupass box -->
+  <rect x="355" y="26" width="312" height="68" rx="8" fill="#fafafa" stroke="#bbb" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="511" y="50" text-anchor="middle" font-size="15" font-weight="700" fill="#333">Edupass (MIMSv2)</text>
+  <text x="511" y="68" text-anchor="middle" font-size="12" fill="#666">Single identity and role context across all platforms</text>
+
+  <!-- ── DATA LABEL ── -->
+  <text x="330" y="118" text-anchor="middle" font-size="12" fill="#999">Data</text>
+
+  <!-- Arrows from Edupass down (dashed) -->
+  <!-- To EduHub -->
+  <line x1="420" y1="94" x2="200" y2="134" stroke="#bbb" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+  <!-- To School Cockpit -->
+  <line x1="480" y1="94" x2="415" y2="134" stroke="#bbb" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+  <!-- To nLDS (rightward arrow) -->
+  <line x1="667" y1="60" x2="770" y2="60" stroke="#bbb" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+  <line x1="800" y1="60" x2="800" y2="130" stroke="#bbb" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+
+  <!-- ── DATA LAYER ── -->
+  <!-- EduHub -->
+  <rect x="68" y="132" width="218" height="68" rx="8" fill="#fafafa" stroke="#bbb" stroke-width="1.5"/>
+  <text x="177" y="156" text-anchor="middle" font-size="15" font-weight="700" fill="#333">EduHub</text>
+  <text x="177" y="174" text-anchor="middle" font-size="12" fill="#666">Governed data exchange</text>
+
+  <!-- School Cockpit -->
+  <rect x="302" y="132" width="218" height="68" rx="8" fill="#fafafa" stroke="#bbb" stroke-width="1.5"/>
+  <text x="411" y="156" text-anchor="middle" font-size="15" font-weight="700" fill="#333">School Cockpit</text>
+  <text x="411" y="174" text-anchor="middle" font-size="12" fill="#666">Operational records</text>
+
+  <!-- nLDS Data Warehouse -->
+  <rect x="672" y="132" width="248" height="68" rx="8" fill="#e8f5f2" stroke="#4db6ac" stroke-width="1.5"/>
+  <text x="796" y="156" text-anchor="middle" font-size="15" font-weight="700" fill="#1a3d35">nLDS Data Warehouse</text>
+  <text x="796" y="174" text-anchor="middle" font-size="12" fill="#3a6b60">PL records, Glow events</text>
+
+  <!-- ── LEARNING PRODUCTS LABEL ── -->
+  <text x="755" y="248" text-anchor="middle" font-size="12" fill="#999">Learning products — standalone today</text>
+
+  <!-- LMS -->
+  <rect x="590" y="258" width="210" height="88" rx="8" fill="#e8f5f2" stroke="#4db6ac" stroke-width="1.5"/>
+  <text x="695" y="280" text-anchor="middle" font-size="14" font-weight="700" fill="#1a3d35">LMS (Sana / nLDS)</text>
+  <text x="695" y="298" text-anchor="middle" font-size="12" fill="#3a6b60">Formal learning, courses</text>
+  <text x="695" y="314" text-anchor="middle" font-size="12" fill="#3a6b60">OPAL2.0 → Sana + LEARN</text>
+
+  <!-- Glow -->
+  <rect x="814" y="258" width="180" height="88" rx="8" fill="#e8f5f2" stroke="#4db6ac" stroke-width="1.5"/>
+  <text x="904" y="280" text-anchor="middle" font-size="14" font-weight="700" fill="#1a3d35">Glow</text>
+  <text x="904" y="298" text-anchor="middle" font-size="12" fill="#3a6b60">AI microlearning</text>
+  <text x="904" y="314" text-anchor="middle" font-size="12" fill="#3a6b60">Bites · job aids</text>
+
+  <!-- "envisioned" label on right -->
+  <text x="1040" y="440" text-anchor="end" font-size="12" fill="#bbb" transform="rotate(90,1040,440)">envisioned</text>
+
+  <!-- Dashed arrows from LMS and Glow down to TW / PLS boxes -->
+  <line x1="695" y1="346" x2="340" y2="498" stroke="#5c6bc0" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="904" y1="346" x2="800" y2="498" stroke="#66bb6a" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <!-- ── SECTION LABELS ── -->
+  <text x="302" y="486" text-anchor="middle" font-size="12" fill="#5c6bc0">Teacher's Workspace (TW)</text>
+  <text x="800" y="486" text-anchor="middle" font-size="12" fill="#66bb6a">Professional Learning Space</text>
+
+  <!-- ══ TEACHER'S WORKSPACE BOX ══ -->
+  <rect x="60" y="496" width="486" height="506" rx="10" fill="#eef0fb" stroke="#7986cb" stroke-width="2"/>
+  <text x="303" y="524" text-anchor="middle" font-size="16" font-weight="700" fill="#3949ab">Teacher's Workspace</text>
+  <text x="303" y="542" text-anchor="middle" font-size="12" fill="#666">Productivity-focused daily interface</text>
+
+  <!-- Honeyjar -->
+  <rect x="86" y="554" width="434" height="68" rx="8" fill="#fff8e1" stroke="#ffb300" stroke-width="1.5"/>
+  <text x="303" y="580" text-anchor="middle" font-size="14" font-weight="700" fill="#6d4c00">Honeyjar</text>
+  <text x="303" y="598" text-anchor="middle" font-size="12" fill="#856200">Interim data storage within TW</text>
+
+  <!-- Arrow Honeyjar → CI -->
+  <line x1="303" y1="622" x2="303" y2="636" stroke="#4db6ac" stroke-width="1.5" marker-end="url(#arr-teal)"/>
+
+  <!-- Contextual Intelligence -->
+  <rect x="86" y="638" width="434" height="66" rx="8" fill="#e0f2f1" stroke="#26a69a" stroke-width="1.5"/>
+  <text x="303" y="661" text-anchor="middle" font-size="14" font-weight="700" fill="#004d40">Contextual Intelligence (CI)</text>
+  <text x="303" y="679" text-anchor="middle" font-size="12" fill="#00695c">Signal → Match → Surface · surfaces modular content</text>
+
+  <!-- Arrow CI → Productivity -->
+  <line x1="303" y1="704" x2="303" y2="718" stroke="#666" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+
+  <!-- Productivity section -->
+  <rect x="86" y="720" width="434" height="208" rx="8" fill="#f5f0ea" stroke="#c8bba0" stroke-width="1"/>
+  <text x="303" y="742" text-anchor="middle" font-size="14" font-weight="700" fill="#4a3f2f">Productivity</text>
+  <text x="303" y="758" text-anchor="middle" font-size="12" fill="#7a6a50">Save teacher time</text>
+  <!-- Sub-items -->
+  <rect x="104" y="766" width="398" height="38" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="303" y="790" text-anchor="middle" font-size="13" fill="#444">Student insights</text>
+  <rect x="104" y="812" width="398" height="38" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="303" y="836" text-anchor="middle" font-size="13" fill="#444">Workflows</text>
+  <rect x="104" y="858" width="398" height="38" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="303" y="882" text-anchor="middle" font-size="13" fill="#444">2-way communication</text>
+
+  <!-- Modular content in TW -->
+  <rect x="86" y="940" width="434" height="48" rx="8" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1.5"/>
+  <text x="303" y="960" text-anchor="middle" font-size="14" font-weight="700" fill="#1b5e20">Modular content</text>
+  <text x="303" y="978" text-anchor="middle" font-size="12" fill="#2e7d32">LMS courses + Glow bites · Surfaced in-context by CI</text>
+
+  <!-- TW bottom arrow indicator -->
+  <text x="68" y="1014" font-size="10" fill="#999">← - - →</text>
+
+  <!-- ══ PROFESSIONAL LEARNING SPACE BOX ══ -->
+  <rect x="614" y="496" width="386" height="506" rx="10" fill="#f1f8f0" stroke="#81c784" stroke-width="2"/>
+  <text x="807" y="524" text-anchor="middle" font-size="16" font-weight="700" fill="#2e7d32">Professional Learning Space</text>
+  <text x="807" y="542" text-anchor="middle" font-size="12" fill="#666">Dedicated PD environment</text>
+
+  <!-- Modular content in PLS -->
+  <rect x="636" y="558" width="342" height="62" rx="8" fill="#e0f2f1" stroke="#26a69a" stroke-width="1.5"/>
+  <text x="807" y="582" text-anchor="middle" font-size="14" font-weight="700" fill="#004d40">Modular content</text>
+  <text x="807" y="600" text-anchor="middle" font-size="12" fill="#00695c">LMS courses + Glow bites (envisioned)</text>
+
+  <!-- COVAA -->
+  <rect x="636" y="632" width="342" height="42" rx="6" fill="white" stroke="#a5d6a7" stroke-width="1.5"/>
+  <text x="807" y="658" text-anchor="middle" font-size="13" fill="#2e7d32">COVAA — lesson feedback</text>
+
+  <!-- Community learning -->
+  <rect x="636" y="682" width="342" height="42" rx="6" fill="white" stroke="#a5d6a7" stroke-width="1.5"/>
+  <text x="807" y="708" text-anchor="middle" font-size="13" fill="#2e7d32">Community learning</text>
+
+  <!-- Learning history -->
+  <rect x="636" y="732" width="342" height="42" rx="6" fill="white" stroke="#a5d6a7" stroke-width="1.5"/>
+  <text x="807" y="758" text-anchor="middle" font-size="13" fill="#2e7d32">Learning history (nLDS DW)</text>
+
+  <!-- ── LEGEND ── -->
+  <g transform="translate(64, 1040)">
+    <!-- DXD product -->
+    <rect x="0" y="0" width="16" height="16" rx="3" fill="#e0f2f1" stroke="#26a69a" stroke-width="1.5"/>
+    <text x="22" y="13" font-size="12" fill="#444">DXD product (Glow, CI)</text>
+    <!-- Honeyjar -->
+    <rect x="190" y="0" width="16" height="16" rx="3" fill="#fff8e1" stroke="#ffb300" stroke-width="1.5"/>
+    <text x="212" y="13" font-size="12" fill="#444">Honeyjar</text>
+    <!-- Learning ecosystem -->
+    <rect x="310" y="0" width="16" height="16" rx="3" fill="#f1f8f0" stroke="#81c784" stroke-width="1.5"/>
+    <text x="332" y="13" font-size="12" fill="#444">Learning ecosystem / PLS</text>
+    <!-- Shared infrastructure -->
+    <rect x="530" y="0" width="16" height="16" rx="3" fill="#fafafa" stroke="#bbb" stroke-width="1.5"/>
+    <text x="552" y="13" font-size="12" fill="#444">Shared infrastructure</text>
+  </g>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#bbb"/>
+    </marker>
+    <marker id="arr-teal" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#26a69a"/>
+    </marker>
+    <marker id="arr-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#888"/>
+    </marker>
+  </defs>
+</svg>
