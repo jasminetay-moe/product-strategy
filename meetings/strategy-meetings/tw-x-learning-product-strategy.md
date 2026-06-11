@@ -12,24 +12,18 @@ The diagram above shows how the MOE educator platform ecosystem fits together �
 
 ### What Worked
 
-- **AI microlearning format resonated** — Bites and job aids proved useful for just-in-time, contextual consumption
-- **Content creation tooling** — The Glow Content Creator reduced production friction for curators and made it feasible for more teams to produce content
-- **Standalone discovery** — Educators could find and consume Glow content independently without needing to go through the LMS
-- **nLDS event logging** — Glow activity is being captured in the nLDS Data Warehouse, creating a foundation for learning analytics
+- Organic engagement rates are higher than the existing LMS (OPAL2.0), proving receptivity towards the concept of an AI-enabled microlearning format.
 
-### What Did Not Work
+### What Didn't Work
 
-- **Fragmented entry points** — Glow sits standalone today; educators must context-switch between TW and Glow rather than encountering learning content in their natural workflow
-- **No signal loop** — Content recommendations are not informed by what is actually happening in classrooms (student data, lesson context, teacher workload signals)
-- **Cold-start discoverability** — Without contextual triggering, surfacing the right Glow bite to the right teacher at the right moment has been largely manual
-- **LMS–Glow duplication risk** — With LMS (Sana / nLDS) and Glow operating independently, there is a risk of overlapping content libraries and unclear ownership
+- **Fragmented positioning across the learning vertical** — confusing for teachers to know when to go to which platform (between OPAL2.0 and Glow).
+- **Cold-start discoverability** — without contextual triggering, the right content rarely found the right teacher at the right moment.
+- **Content supply** — insufficient volume and coverage of quality content to sustain engagement and meet diverse teacher needs.
 
 ### Future Plans
 
-- **Integrate Glow content into TW via CI** — Modular content (LMS courses + Glow bites) will be surfaced in-context by Contextual Intelligence, removing the need for deliberate navigation
-- **Unified content layer** — Move toward a single modular content library accessible from both TW and the Professional Learning Space
-- **Signal-driven personalisation** — Use Honeyjar data (teacher signals within TW) to drive relevant Glow content recommendations through the CI pipeline
-- **PLS integration (envisioned)** — Glow bites will appear alongside LMS courses in the Professional Learning Space to support structured professional development pathways
+- Use the Glow content modality as the foundation for a future modular content approach.
+- Integrate modular content with TW/CI, which introduces signal-driven discoverability and solves the fragmentation problem by surfacing learning in the context of teachers' daily workflow.
 
 ---
 
